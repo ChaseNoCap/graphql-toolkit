@@ -1,0 +1,1 @@
+{"version":3,"file":"IInitializable.d.ts","sourceRoot":"","sources":["../../src/interfaces/IInitializable.ts"],"names":[],"mappings":"AAAA;;GAEG;AACH,MAAM,WAAW,cAAc;IAC7B;;OAEG;IACH,UAAU,IAAI,IAAI,GAAG,OAAO,CAAC,IAAI,CAAC,CAAC;CACpC;AAED;;GAEG;AACH,wBAAgB,eAAe,CAAC,GAAG,EAAE,OAAO,GAAG,GAAG,IAAI,cAAc,CAOnE"}

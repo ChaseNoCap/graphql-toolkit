@@ -1,0 +1,1 @@
+{"version":3,"file":"IDisposable.js","sourceRoot":"","sources":["../../src/interfaces/IDisposable.ts"],"names":[],"mappings":"AAUA;;GAEG;AACH,MAAM,UAAU,YAAY,CAAC,GAAY;IACvC,OAAO,CACL,OAAO,GAAG,KAAK,QAAQ;QACvB,GAAG,KAAK,IAAI;QACZ,SAAS,IAAI,GAAG;QAChB,OAAQ,GAAW,CAAC,OAAO,KAAK,UAAU,CAC3C,CAAC;AACJ,CAAC"}

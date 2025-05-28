@@ -1,0 +1,77 @@
+{
+  "name": "@chasenocap/test-mocks",
+  "version": "0.1.1",
+  "description": "Mock implementations for H1B monorepo testing",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "test": "vitest run",
+    "test:watch": "vitest watch",
+    "coverage": "vitest run --coverage",
+    "lint": "eslint . --ext .ts",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist",
+    "prebuild": "npm run clean"
+  },
+  "keywords": [
+    "h1b",
+    "testing",
+    "mocks",
+    "test-doubles"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChaseNoCap/h1b-visa-analysis.git",
+    "directory": "packages/test-mocks"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "inversify": "^6.0.2",
+    "@chasenocap/event-system": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@typescript-eslint/eslint-plugin": "^6.13.0",
+    "@typescript-eslint/parser": "^6.13.0",
+    "eslint": "^8.55.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "prettier": "^3.1.0",
+    "typescript": "^5.3.0",
+    "vitest": "^0.34.0",
+    "@vitest/coverage-v8": "^0.34.0"
+  },
+  "peerDependencies": {
+    "logger": "*",
+    "file-system": "*",
+    "cache": "*"
+  },
+  "peerDependenciesMeta": {
+    "logger": {
+      "optional": true
+    },
+    "file-system": {
+      "optional": true
+    },
+    "cache": {
+      "optional": true
+    }
+  }
+}
